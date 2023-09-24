@@ -4,7 +4,16 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
   'tsserver',
+  'gopls',
+  'html',
+  'cssls',
+  'intelephense',
+  'tailwindcss',
+  'volar',
   'rust_analyzer',
+  'dockerls',
+  'docker_compose_language_service',
+  'pyright',
 })
 
 -- Fix Undefined global 'vim'
